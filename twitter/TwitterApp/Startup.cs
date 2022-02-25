@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using TwitterApp.DataAccess;
 using TwitterApp.Helper;
 using TwitterApp.Shared.Custom;
 
@@ -80,8 +82,10 @@ namespace TwitterApp
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, TwitterAppDbContext databaseContext)
         {
+            databaseContext.Database.Migrate();
+            
             app.UseCors("AllowAll");
             if (env.IsDevelopment())
             {
