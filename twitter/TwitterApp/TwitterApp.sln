@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp", "TwitterApp.csproj", "{7F200C9F-95D5-4851-8289-C8E9C5781E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.DataAccess", "..\TwitterApp.DataAccess\TwitterApp.DataAccess.csproj", "{98B53370-6557-47A6-B354-B564B5871EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Domain", "..\TwitterApp.Domain\TwitterApp.Domain.csproj", "{F1998AEF-8ACA-43C2-8105-34AC12BBB429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Helper", "..\TwitterApp.Helper\TwitterApp.Helper.csproj", "{543B6F24-2077-452A-A486-F89E4463D706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Services", "..\TwitterApp.Services\TwitterApp.Services.csproj", "{A7C88B3C-5737-44B1-B748-A2C4A5DC03FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Models", "..\TwitterApp.Models\TwitterApp.Models.csproj", "{9E0BC75F-95E4-44D4-8A5D-15789408B97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Mappers", "..\TwitterApp.Mappers\TwitterApp.Mappers.csproj", "{2A7FE87F-85E2-4162-B9EF-6BE7DAF089A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApp.Shared", "..\TwitterApp.Shared\TwitterApp.Shared.csproj", "{6B0C80A2-0546-4654-81F9-F1560C6E0498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F200C9F-95D5-4851-8289-C8E9C5781E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F200C9F-95D5-4851-8289-C8E9C5781E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F200C9F-95D5-4851-8289-C8E9C5781E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F200C9F-95D5-4851-8289-C8E9C5781E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B53370-6557-47A6-B354-B564B5871EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B53370-6557-47A6-B354-B564B5871EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B53370-6557-47A6-B354-B564B5871EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B53370-6557-47A6-B354-B564B5871EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1998AEF-8ACA-43C2-8105-34AC12BBB429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1998AEF-8ACA-43C2-8105-34AC12BBB429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1998AEF-8ACA-43C2-8105-34AC12BBB429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1998AEF-8ACA-43C2-8105-34AC12BBB429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543B6F24-2077-452A-A486-F89E4463D706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543B6F24-2077-452A-A486-F89E4463D706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543B6F24-2077-452A-A486-F89E4463D706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543B6F24-2077-452A-A486-F89E4463D706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C88B3C-5737-44B1-B748-A2C4A5DC03FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C88B3C-5737-44B1-B748-A2C4A5DC03FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C88B3C-5737-44B1-B748-A2C4A5DC03FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C88B3C-5737-44B1-B748-A2C4A5DC03FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0BC75F-95E4-44D4-8A5D-15789408B97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0BC75F-95E4-44D4-8A5D-15789408B97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0BC75F-95E4-44D4-8A5D-15789408B97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0BC75F-95E4-44D4-8A5D-15789408B97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7FE87F-85E2-4162-B9EF-6BE7DAF089A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7FE87F-85E2-4162-B9EF-6BE7DAF089A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7FE87F-85E2-4162-B9EF-6BE7DAF089A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7FE87F-85E2-4162-B9EF-6BE7DAF089A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0C80A2-0546-4654-81F9-F1560C6E0498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0C80A2-0546-4654-81F9-F1560C6E0498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0C80A2-0546-4654-81F9-F1560C6E0498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0C80A2-0546-4654-81F9-F1560C6E0498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94EC9AE6-13DA-4C69-ABEB-F795131C3AD6}
+	EndGlobalSection
+EndGlobal
