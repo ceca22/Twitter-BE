@@ -18,6 +18,8 @@ namespace TwitterApp.DataAccess.Interfaces
         //Task<User> GetById(long id);
 
         User GetByExternalId(string id);
+
+        User GetByEmail(string email);
         IQueryable<User> GetAll();
         void Add(User entity);
         void Delete(User entity);

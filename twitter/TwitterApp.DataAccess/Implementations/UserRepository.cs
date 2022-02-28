@@ -84,5 +84,13 @@ namespace TwitterApp.DataAccess.Implementations
                 .Users
                 .FirstOrDefault(x => x.Username == username);
         }
+
+        public User GetByEmail(string email)
+        {
+            return _twitterAppDbContext
+                .Users
+                .FirstOrDefault(x => x.Email == email);
+        }
+
     }
 }

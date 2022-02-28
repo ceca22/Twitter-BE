@@ -100,7 +100,7 @@ namespace TwitterApp.Services.Implementations
 
         public void RegisterWithGoogle(GoogleRegisterModel user)
         {
-            User userDb = _userRepository.GetByExternalId(user.ExternalId);
+            User userDb = _userRepository.GetByEmail(user.Email);
             if(userDb == null)
             {
                 User createUser = new User()
